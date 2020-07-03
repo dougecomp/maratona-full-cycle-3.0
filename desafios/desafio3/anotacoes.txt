@@ -1,0 +1,2 @@
+O desafio 3 foi disponibilizar um endpoint serverless usando algum serviço em nuvem.
+Eu usei o recurso de Functions da IBM Cloud por ser gratuita.

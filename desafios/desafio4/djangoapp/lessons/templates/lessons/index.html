@@ -1,0 +1,9 @@
+{% if lessons %}
+    <ul>
+    {% for lesson in lessons %}
+        <li><span>{{lesson.title}}</span>: <span>{{lesson.author}}</span></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Lessons are available.</p>
+{% endif %}
